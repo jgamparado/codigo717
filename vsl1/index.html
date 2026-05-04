@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>🔴 EN VIVO Reset Digestivo | Camila Ceballos</title>
+ <meta name="description" content="Transmisión en vivo exclusiva. Mirá hasta el final." />
+ <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><rect width='24' height='24' rx='5' fill='%23ff0000'/><polygon points='10,7 17,12 10,17' fill='white'/></svg>" />
+ <!-- Utmify tracking -->
+ <script
+ src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+ data-utmify-prevent-xcod-sck
+ data-utmify-prevent-subids
+ async
+ defer
+ ></script>
+ <script>
+ window.pixelId = "69ba2675ef1ccceed5d182e1";
+ var a = document.createElement("script");
+ a.setAttribute("async", "");
+ a.setAttribute("defer", "");
+ a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+ document.head.appendChild(a);
+</script>
+ <!-- Vturb preload -->
+ <script>!function(i,n){i._plt=i._plt||(n&&n.timeOrigin?n.timeOrigin+n.now():Date.now())}(window,performance);</script>
+ <link rel="preload" href="https://scripts.converteai.net/91bc53c9-366d-445c-b2bf-ec3be354b7c6/players/69f8ca4c6df5cbb751c6c02c/v4/player.js" as="script">
+ <link rel="preload" href="https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js" as="script">
+ <link rel="preload" href="https://cdn.converteai.net/91bc53c9-366d-445c-b2bf-ec3be354b7c6/69f8ca3ffb9dd04145b76550/main.m3u8" as="fetch">
+ <link rel="dns-prefetch" href="https://cdn.converteai.net">
+ <link rel="dns-prefetch" href="https://scripts.converteai.net">
+ <link rel="dns-prefetch" href="https://images.converteai.net">
+ <link rel="dns-prefetch" href="https://api.vturb.com.br">
+ <!-- Google Fonts -->
+ <link rel="preconnect" href="https://fonts.googleapis.com" />
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+ <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+ <style>
+ *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+ :root {
+ --bg: #0f0f0f;
+ --surface: #212121;
+ --surface2: #181818;
+ --text: #f1f1f1;
+ --muted: #aaaaaa;
+ --red: #ff0000;
+ --border: #3f3f3f;
+ --chat-w: 340px;
+ }
+
+ html, body { height: 100%; }
+
+ body {
+ font-family: 'Roboto', sans-serif;
+ background: var(--bg);
+ color: var(--text);
+ font-size: 14px;
+ }
+
+ /* ───────────────────────── HEADER ───────────────────────── */
+ #yt-header {
+ position: sticky;
+ top: 0;
+ z-index: 900;
+ background: var(--bg);
+ border-bottom: 1px solid var(--border);
+ height: 56px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 0 16px;
+ }
+
+ .hd-left { display: flex; align-items: center; gap: 16px; }
+
+ .hamburger { display: flex; flex-direction: column; gap: 5px; cursor: pointer; padding: 8px; }
+ .hamburger span { display: block; width: 20px; height: 2px; background: var(--text); border-radius: 2px; }
+
+ .yt-logo { display: flex; align-items: center; gap: 4px; text-decoration: none; }
+ .yt-logo svg { width: 28px; height: 20px; }
+ .yt-logo-text { font-size: 18px; font-weight: 700; color: var(--text); letter-spacing: -0.5px; }
+
+ .hd-right { display: flex; align-items: center; gap: 8px; }
+
+ .hd-icon-btn {
+ background: none;
+ border: none;
+ color: var(--text);
+ width: 40px; height: 40px;
+ border-radius: 50%;
+ display: flex; align-items: center; justify-content: center;
+ cursor: pointer;
+ position: relative;
+ transition: background .15s;
+ }
+ .hd-icon-btn:hover { background: #ffffff1a; }
+
+ .badge {
+ position: absolute;
+ top: 2px; right: 2px;
+ background: var(--red);
+ color: #fff;
+ font-size: 9px;
+ font-weight: 700;
+ padding: 1px 4px;
+ border-radius: 8px;
+ min-width: 16px;
+ text-align: center;
+ }
+
+ .avatar-btn {
+ width: 32px; height: 32px;
+ border-radius: 50%;
+ background: #1565c0;
+ border: 2px solid var(--border);
+ display: flex; align-items: center; justify-content: center;
+ font-size: 13px; font-weight: 700;
+ cursor: pointer;
+ color: #fff;
+ }
+
+ .search-bar {
+ display: flex; align-items: center;
+ background: var(--surface2);
+ border: 1px solid var(--border);
+ border-radius: 40px;
+ overflow: hidden;
+ height: 36px;
+ flex: 1;
+ max-width: 480px;
+ margin: 0 8px;
+ }
+ .search-bar input {
+ flex: 1;
+ background: none; border: none; outline: none;
+ color: var(--text);
+ padding: 0 14px;
+ font-size: 14px;
+ font-family: 'Roboto', sans-serif;
+ }
+ .search-bar input::placeholder { color: var(--muted); }
+ .search-bar button {
+ background: var(--surface);
+ border: none; border-left: 1px solid var(--border);
+ color: var(--text);
+ width: 56px; height: 36px;
+ cursor: pointer;
+ display: flex; align-items: center; justify-content: center;
+ }
+
+ /* ───────────────────────── LAYOUT ───────────────────────── */
+ #page-wrap {
+ max-width: 1100px;
+ margin: 0 auto;
+ padding: 20px 16px 0;
+ }
+
+ #main-col { width: 100%; }
+
+ /* ───────────────────────── PLAYER ───────────────────────── */
+ #player-wrap {
+ width: 100%;
+ max-width: 420px;
+ margin: 0 auto 16px;
+ position: relative; /* para os badges ficarem ancorados ao player */
+ }
+
+ #player-wrap vturb-smartplayer {
+ display: block;
+ width: 100%;
+ }
+
+ /* badges ancorados ao topo do player, pointer-events none para não bloquear o player */
+ #live-badge, #viewers-overlay {
+ position: absolute;
+ z-index: 10;
+ pointer-events: none;
+ }
+
+ /* placeholder while embed is not set */
+ #player-placeholder {
+ width: 100%; height: 100%;
+ background: #111;
+ display: flex; align-items: center; justify-content: center;
+ flex-direction: column;
+ gap: 12px;
+ }
+ #player-placeholder svg { opacity: .4; }
+ #player-placeholder p { color: var(--muted); font-size: 13px; }
+
+ /* EN VIVO badge */
+ #live-badge {
+ top: 12px; left: 12px;
+ background: var(--red);
+ color: #fff;
+ font-size: 12px;
+ font-weight: 700;
+ padding: 3px 8px;
+ border-radius: 4px;
+ display: flex; align-items: center; gap: 5px;
+ animation: pulse-badge 2s ease-in-out infinite;
+ letter-spacing: .5px;
+ }
+ #live-badge::before {
+ content: '';
+ width: 8px; height: 8px;
+ background: #fff;
+ border-radius: 50%;
+ display: inline-block;
+ animation: dot-blink 1.2s ease-in-out infinite;
+ }
+ @keyframes pulse-badge {
+ 0%, 100% { opacity: 1; }
+ 50% { opacity: .75; }
+ }
+ @keyframes dot-blink {
+ 0%, 100% { opacity: 1; }
+ 50% { opacity: .3; }
+ }
+
+ /* Viewers counter overlay */
+ #viewers-overlay {
+ top: 12px; right: 12px;
+ background: rgba(0,0,0,.72);
+ color: #fff;
+ font-size: 12px;
+ font-weight: 500;
+ padding: 3px 8px;
+ border-radius: 4px;
+ display: flex; align-items: center; gap: 5px;
+ }
+ #viewers-overlay svg { width: 12px; height: 12px; }
+
+ /* ───────────────────────── VIDEO INFO ───────────────────────── */
+ #video-title {
+ font-size: 18px;
+ font-weight: 600;
+ line-height: 1.4;
+ margin: 12px 0 8px;
+ }
+
+ #channel-row {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ gap: 12px;
+ flex-wrap: wrap;
+ }
+
+ .channel-info { display: flex; align-items: center; gap: 10px; }
+
+ .ch-avatar {
+ width: 36px; height: 36px;
+ border-radius: 50%;
+ background: #1565c0;
+ display: flex; align-items: center; justify-content: center;
+ font-weight: 700;
+ font-size: 13px;
+ color: #fff;
+ flex-shrink: 0;
+ }
+
+ .ch-name { font-weight: 500; font-size: 14px; }
+ .ch-subs { font-size: 12px; color: var(--muted); margin-top: 1px; }
+
+ .btn-subscribe {
+ background: var(--surface);
+ color: var(--muted);
+ border: 1px solid var(--border);
+ border-radius: 20px;
+ padding: 8px 16px;
+ font-size: 14px;
+ font-weight: 500;
+ cursor: default;
+ display: flex; align-items: center; gap: 6px;
+ font-family: 'Roboto', sans-serif;
+ }
+
+
+ /* ───────────────────────── CHAT ───────────────────────── */
+ #chat-panel {
+ background: var(--surface2);
+ border: 1px solid var(--border);
+ border-radius: 12px;
+ display: flex;
+ flex-direction: column;
+ height: 420px;
+ overflow: hidden;
+ margin-top: 16px;
+ }
+
+ #chat-header {
+ padding: 10px 14px;
+ border-bottom: 1px solid var(--border);
+ font-weight: 600;
+ font-size: 14px;
+ display: flex; align-items: center; gap: 8px;
+ }
+
+ #chat-viewers {
+ margin-left: auto;
+ display: flex; align-items: center; gap: 5px;
+ font-size: 12px;
+ font-weight: 400;
+ color: var(--muted);
+ }
+ #chat-viewers svg { width: 13px; height: 13px; }
+
+ #chat-live-dot {
+ width: 8px; height: 8px;
+ background: var(--red);
+ border-radius: 50%;
+ animation: dot-blink 1.2s ease-in-out infinite;
+ }
+
+ #chat-messages {
+ flex: 1;
+ overflow-y: auto;
+ padding: 8px 10px;
+ display: flex;
+ flex-direction: column;
+ gap: 2px;
+ }
+
+ #chat-messages::-webkit-scrollbar { width: 4px; }
+ #chat-messages::-webkit-scrollbar-track { background: transparent; }
+ #chat-messages::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+
+ .chat-msg {
+ display: flex;
+ gap: 6px;
+ padding: 3px 4px;
+ border-radius: 4px;
+ font-size: 13px;
+ line-height: 1.4;
+ animation: slide-in .3s ease;
+ }
+ .chat-msg:hover { background: #ffffff08; }
+
+ @keyframes slide-in {
+ from { opacity: 0; transform: translateY(6px); }
+ to { opacity: 1; transform: translateY(0); }
+ }
+
+ .chat-user {
+ font-weight: 600;
+ white-space: nowrap;
+ flex-shrink: 0;
+ }
+ .chat-text { color: #e0e0e0; word-break: break-word; }
+
+ #chat-input-area {
+ padding: 8px 10px;
+ border-top: 1px solid var(--border);
+ display: flex; gap: 8px; align-items: center;
+ }
+
+ #chat-input {
+ flex: 1;
+ background: var(--surface);
+ border: 1px solid var(--border);
+ border-radius: 20px;
+ padding: 7px 14px;
+ color: var(--muted);
+ font-size: 13px;
+ font-family: 'Roboto', sans-serif;
+ outline: none;
+ cursor: not-allowed;
+ }
+
+ #chat-send {
+ background: var(--border);
+ border: none;
+ border-radius: 20px;
+ color: var(--muted);
+ padding: 7px 14px;
+ font-size: 13px;
+ font-weight: 500;
+ cursor: not-allowed;
+ font-family: 'Roboto', sans-serif;
+ }
+
+
+
+ /* ───────────────────────── SOCIAL PROOF POPUP ───────────────────────── */
+ #social-popup {
+ position: fixed;
+ bottom: 20px; left: 16px;
+ z-index: 999;
+ background: var(--surface);
+ border: 1px solid var(--border);
+ border-radius: 10px;
+ padding: 10px 14px;
+ max-width: 280px;
+ display: flex; align-items: center; gap: 10px;
+ opacity: 0;
+ transform: translateY(10px);
+ transition: opacity .4s ease, transform .4s ease;
+ pointer-events: none;
+ box-shadow: 0 4px 20px rgba(0,0,0,.5);
+ }
+ #social-popup.show {
+ opacity: 1;
+ transform: translateY(0);
+ }
+ #social-popup-dot {
+ width: 10px; height: 10px;
+ background: #4ade80;
+ border-radius: 50%;
+ flex-shrink: 0;
+ }
+ #social-popup-text { font-size: 13px; line-height: 1.4; }
+
+ /* ───────────────────────── RESPONSIVE ───────────────────────── */
+ @media (max-width: 900px) {
+ #page-wrap { padding: 12px 8px 0; }
+ #chat-panel { height: 360px; }
+ #video-title { font-size: 16px; }
+ }
+
+ @media (max-width: 600px) {
+ .search-bar { display: none; }
+ #video-title { font-size: 15px; }
+ #chat-panel { height: 300px; }
+ }
+ </style>
+</head>
+<body>
+
+<!-- ═══════════════════════════ HEADER ═══════════════════════════ -->
+<header id="yt-header">
+ <div class="hd-left">
+ <div class="hamburger" aria-hidden="true">
+ <span></span><span></span><span></span>
+ </div>
+ <a class="yt-logo" href="#">
+ <!-- YouTube red icon SVG inline -->
+ <svg viewBox="0 0 90 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+ <path d="M88.1 9.9C87.1 6.3 84.3 3.5 80.7 2.5 73.6 0.5 45 0.5 45 0.5S16.4 0.5 9.3 2.4C5.8 3.4 2.9 6.3 1.9 9.9 0 17 0 31.7 0 31.7S0 46.5 1.9 53.5c1 3.6 3.8 6.3 7.4 7.3C16.5 62.8 45 62.8 45 62.8S73.6 62.8 80.7 60.9c3.6-1 6.4-3.7 7.4-7.3C90 46.5 90 31.7 90 31.7S90 17 88.1 9.9z" fill="#FF0000"/>
+ <path d="M36 45.1L59.3 31.7 36 18.3v26.8z" fill="white"/>
+ </svg>
+ <span class="yt-logo-text">YouTube</span>
+ </a>
+ </div>
+
+ <div class="search-bar">
+ <input type="text" placeholder="Buscar" readonly />
+ <button aria-label="Buscar">
+ <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+ <circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/>
+ </svg>
+ </button>
+ </div>
+
+ <div class="hd-right">
+ <!-- Search icon (mobile) -->
+ <button class="hd-icon-btn" aria-label="Buscar">
+ <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+ <circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/>
+ </svg>
+ </button>
+ <!-- Notification bell -->
+ <button class="hd-icon-btn" aria-label="Notificaciones">
+ <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+ <path d="M12 22c1.1 0 2-.9 2-2h-4a2 2 0 002 2zm6-6v-5c0-3.07-1.64-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.63 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2z"/>
+ </svg>
+ <span class="badge">99+</span>
+ </button>
+ <!-- Avatar -->
+ <div class="avatar-btn">MA</div>
+ </div>
+</header>
+
+<!-- ═══════════════════════════ PAGE LAYOUT ═══════════════════════════ -->
+<div id="page-wrap">
+
+ <!-- ─────────────── MAIN COLUMN ─────────────── -->
+ <main id="main-col">
+
+ <!-- PLAYER -->
+ <div id="player-wrap">
+ <!-- EN VIVO badge -->
+ <div id="live-badge">EN VIVO</div>
+ <!-- Viewers overlay -->
+ <div id="viewers-overlay">
+ <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8a3 3 0 100 6 3 3 0 000-6z"/></svg>
+ <span id="viewers-count">2 341</span> espectadoras
+ </div>
+
+ <!-- ═══ VTURB EMBED ═══ -->
+ <vturb-smartplayer id="vid-69f8ca4c6df5cbb751c6c02c" style="display: block; margin: 0 auto; width: 100%;"></vturb-smartplayer>
+ <script type="text/javascript">
+ var s=document.createElement("script");
+ s.src="https://scripts.converteai.net/91bc53c9-366d-445c-b2bf-ec3be354b7c6/players/69f8ca4c6df5cbb751c6c02c/v4/player.js";
+ s.async=!0;
+ document.head.appendChild(s);
+ </script>
+ <!-- ═══ FIN EMBED ═══ -->
+ </div>
+
+ <!-- VIDEO TITLE -->
+ <h1 id="video-title">🔴 EN VIVO | El Secreto del Reset Digestivo que Nadie te Contó con Camila Ceballos</h1>
+
+ <!-- CHANNEL ROW -->
+ <div id="channel-row">
+ <div class="channel-info">
+ <div class="ch-avatar">CC</div>
+ <div>
+ <div class="ch-name">Camila Ceballos Nutrición &amp; Bienestar</div>
+ <div class="ch-subs">318 000 suscriptoras</div>
+ </div>
+ </div>
+ <button class="btn-subscribe">✓ Suscrita</button>
+ </div>
+
+ <!-- LIVE CHAT -->
+ <div id="chat-panel">
+ <div id="chat-header">
+ <div id="chat-live-dot"></div>
+ Chat en vivo
+ <div id="chat-viewers">
+ <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8a3 3 0 100 6 3 3 0 000-6z"/></svg>
+ <span id="chat-viewers-count">2 341</span> espectadoras
+ </div>
+ </div>
+ <div id="chat-messages"></div>
+ <div id="chat-input-area">
+ <input id="chat-input" type="text" placeholder="Iniciá sesión para chatear..." disabled />
+ <button id="chat-send" disabled>Chat</button>
+ </div>
+ </div>
+
+ </main><!-- /main-col -->
+
+</div><!-- /page-wrap -->
+
+
+<!-- ═══════════════════════════ SOCIAL PROOF POPUP ═══════════════════════════ -->
+<div id="social-popup">
+ <div id="social-popup-dot"></div>
+ <div id="social-popup-text"></div>
+</div>
+
+<!-- ═══════════════════════════ JAVASCRIPT ═══════════════════════════ -->
+<script>
+(function () {
+ 'use strict';
+
+ /* ── Viewers counter (player overlay + chat header) ── */
+ var viewersOverlay = document.getElementById('viewers-count');
+ var viewersChat = document.getElementById('chat-viewers-count');
+ var currentViewers = Math.floor(Math.random() * (2500 - 1847 + 1)) + 1847;
+
+ function formatViewers(n) { return n.toLocaleString('es-ES'); }
+
+ function tickViewers() {
+ var delta = Math.floor(Math.random() * 3) + 1;
+ var dir = Math.random() > 0.25 ? 1 : -1;
+ currentViewers = Math.max(1847, Math.min(4392, currentViewers + dir * delta));
+ var formatted = formatViewers(currentViewers);
+ viewersOverlay.textContent = formatted;
+ viewersChat.textContent = formatted;
+ var nextTick = Math.floor(Math.random() * (8000 - 3000 + 1)) + 3000;
+ setTimeout(tickViewers, nextTick);
+ }
+ tickViewers();
+
+
+ /* ── Chat messages ── */
+
+ // Pool 1 antes dos 30 min: engajamento puro, sem intenção de compra
+ var msgsEarly = [
+ { user: 'Valeria_M', color: '#4ade80', msg: '¿Alguien más lleva desde el comienzo viendo esto?' },
+ { user: 'Daniela_R', color: '#60a5fa', msg: 'Wow, nunca nadie me había explicado esto así 😮' },
+ { user: 'Sofía_P', color: '#f472b6', msg: 'Camila habla súper claro, se entiende todo' },
+ { user: 'Mariana_G', color: '#34d399', msg: 'Qué explicación tan buena 👏 tomando nota' },
+ { user: 'Luciana_V', color: '#f87171', msg: 'Estoy viendo esto con mi hermana, las dos con la boca abierta' },
+ { user: 'Carolina_B', color: '#a78bfa', msg: '¿Esto es natural, sin pastillas raras?' },
+ { user: 'Natalia_Q', color: '#4ade80', msg: '🔥🔥 contenido de otro nivel' },
+ { user: 'Andrea_C', color: '#60a5fa', msg: 'Tengo 38 años y me identifico al 100% con todo lo que dice' },
+ { user: 'Patricia_D', color: '#fbbf24', msg: 'Nadie me había explicado esto nunca, es increíble' },
+ { user: 'Fernanda_P', color: '#f472b6', msg: 'La parte de la inflamación me dejó sin palabras 😮' },
+ { user: 'Claudia_K', color: '#34d399', msg: '¿Esto tiene respaldo científico? Parece muy serio' },
+ { user: 'Gabriela_V', color: '#f87171', msg: 'Siento que está describiendo exactamente lo que me pasa' },
+ { user: 'Isabel_R', color: '#60a5fa', msg: 'Camila explica genial, muy directa y sin vueltas' },
+ { user: 'Cecilia_A', color: '#fbbf24', msg: 'Lo del intestino y el cortisol… me rompió la cabeza 🤯' },
+ { user: 'Laura_S', color: '#a78bfa', msg: 'Compartí el link con todas mis amigas del gym' },
+ { user: 'Jimena_D', color: '#4ade80', msg: 'Todo tiene sentido ahora, por eso no me funcionaban las dietas' },
+ { user: 'Romina_F', color: '#60a5fa', msg: '¿Por qué los nutricionistas no hablan de esto en consulta?' },
+ { user: 'Agustina_R', color: '#f472b6', msg: 'Estoy tomando notas 📝 hay demasiada info valiosa' },
+ { user: 'Paola_B', color: '#34d399', msg: 'Qué bien que hice clic en este live, gracias Camila' },
+ { user: 'Verónica_P', color: '#fbbf24', msg: 'La base científica es muy sólida, me da confianza' },
+ { user: 'Micaela_G', color: '#f87171', msg: 'Mi mamá también tendría que ver esto' },
+ { user: 'Silvana_V', color: '#a78bfa', msg: '¿Hace cuánto Camila hace estas transmisiones?' },
+ { user: 'Estefanía_L', color: '#4ade80', msg: '👍👍 contenido de calidad como siempre' },
+ { user: 'Lorena_D', color: '#60a5fa', msg: 'Soy nutricionista y confirmo todo lo que está diciendo' },
+ { user: 'Samantha_M', color: '#f472b6', msg: 'Me convenció en 10 minutos, qué forma de explicar 🙌' },
+ ];
+
+ // Pool 2 depois dos 30 min: intenção de compra, urgência, pedido de link
+ var msgsLate = [
+ { user: 'Valeria_M', color: '#4ade80', msg: '¿Dónde accedo al protocolo completo? Quiero empezar ya' },
+ { user: 'Daniela_R', color: '#60a5fa', msg: 'Quiero comprarlo, ¿dónde está el link exactamente?' },
+ { user: 'Sofía_P', color: '#f472b6', msg: '¿La oferta sigue disponible? No quiero perderla' },
+ { user: 'Mariana_G', color: '#34d399', msg: 'Ya compré, no esperé más 🙌 lista para empezar' },
+ { user: 'Luciana_V', color: '#f87171', msg: '¡Mi hermana y yo lo compramos juntas!' },
+ { user: 'Carolina_B', color: '#a78bfa', msg: 'Rápido el link antes de que se agote 🔥' },
+ { user: 'Natalia_Q', color: '#4ade80', msg: '¡Comprado! Con muchas ganas de arrancar 🙌' },
+ { user: 'Andrea_C', color: '#fbbf24', msg: '¿El pago es seguro en el sitio?' },
+ { user: 'Patricia_D', color: '#f472b6', msg: '¡Acabo de comprarlo, gracias Camila!' },
+ { user: 'Claudia_K', color: '#34d399', msg: '¿Tiene garantía si no me funciona?' },
+ { user: 'Gabriela_V', color: '#f87171', msg: '¿El precio que veo es el precio final?' },
+ { user: 'Isabel_R', color: '#60a5fa', msg: 'Comprado 💚 espero que cambie mi vida como a las otras' },
+ { user: 'Cecilia_A', color: '#fbbf24', msg: '¿Alguien ya lo probó? ¿Qué resultados tuvieron?' },
+ { user: 'Laura_S', color: '#a78bfa', msg: '¡Gracias por esta oferta, me lanzo!' },
+ { user: 'Jimena_D', color: '#4ade80', msg: 'Compré 2, uno para mí y uno para mi mamá ❤️' },
+ { user: 'Romina_F', color: '#60a5fa', msg: '¿La oferta vence esta noche de verdad?' },
+ { user: 'Agustina_R', color: '#f472b6', msg: '¡Comprado! ¿En cuánto tiempo llega el acceso?' },
+ { user: 'Paola_B', color: '#34d399', msg: '✅ listo, compra hecha. ¡Gracias Camila!' },
+ { user: 'Verónica_P', color: '#fbbf24', msg: '¿El link sigue funcionando? Voy a comprar ahora' },
+ { user: 'Micaela_G', color: '#f87171', msg: 'Compré para mí y mi hermana 💪 las dos lo necesitábamos' },
+ { user: 'Silvana_V', color: '#a78bfa', msg: '¡Súper oferta, rápido antes de que se agote!' },
+ { user: 'Estefanía_L', color: '#4ade80', msg: 'Compré en 2 minutos, facilísimo 👌' },
+ { user: 'Lorena_D', color: '#60a5fa', msg: 'Como nutricionista, lo recomiendo 100%, ¡vayan!' },
+ { user: 'Samantha_M', color: '#f472b6', msg: '¡Gracias por la oferta especial del live, comprado!' },
+ { user: 'Mónica_T', color: '#34d399', msg: '¿Saben si también llega a Colombia y Chile?' },
+ ];
+
+ var SWITCH_MS = 30 * 60 * 1000; // 30 minutos em ms
+ var startTime = Date.now();
+
+ function currentPool() {
+ return (Date.now() - startTime) < SWITCH_MS ? msgsEarly : msgsLate;
+ }
+
+ var chatContainer = document.getElementById('chat-messages');
+ var earlyIdx = 0;
+ var lateIdx = 0;
+
+ // Pré-popular com as 5 primeiras mensagens do pool inicial
+ for (var i = 0; i < 5; i++) {
+ addChatMessage(msgsEarly[i]);
+ }
+ earlyIdx = 5;
+
+ function addChatMessage(data) {
+ var div = document.createElement('div');
+ div.className = 'chat-msg';
+ div.innerHTML =
+ '<span class="chat-user" style="color:' + data.color + '">' + escapeHtml(data.user) + ':</span>' +
+ '<span class="chat-text">' + escapeHtml(data.msg) + '</span>';
+ chatContainer.appendChild(div);
+ chatContainer.scrollTop = chatContainer.scrollHeight;
+ while (chatContainer.children.length > 60) {
+ chatContainer.removeChild(chatContainer.firstChild);
+ }
+ }
+
+ function scheduleNextChat() {
+ var delay = Math.floor(Math.random() * (5000 - 2000 + 1)) + 2000;
+ setTimeout(function () {
+ var pool = currentPool();
+ var idx = pool === msgsEarly ? earlyIdx++ : lateIdx++;
+ addChatMessage(pool[idx % pool.length]);
+ scheduleNextChat();
+ }, delay);
+ }
+ scheduleNextChat();
+
+ function escapeHtml(str) {
+ return str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+ }
+
+ /* ── Social proof popup ── */
+ var names = ['Valeria','Daniela','Sofía','Mariana','Luciana','Carolina','Andrea','Patricia','Gabriela','Isabel','Jimena','Romina','Agustina','Paola','Verónica'];
+ var cities = ['Buenos Aires','Bogotá','Ciudad de México','Santiago','Lima','Montevideo','Medellín','Guadalajara','Córdoba','Rosario','Cali','Monterrey'];
+
+ var popup = document.getElementById('social-popup');
+ var popupText = document.getElementById('social-popup-text');
+
+ function showPopup() {
+ var name = names[Math.floor(Math.random() * names.length)];
+ var city = cities[Math.floor(Math.random() * cities.length)];
+ popupText.textContent = '🟢 ' + name + ' de ' + city + ' acaba de unirse';
+ popup.classList.add('show');
+ setTimeout(function () {
+ popup.classList.remove('show');
+ }, 4000);
+
+ var next = Math.floor(Math.random() * (40000 - 25000 + 1)) + 25000;
+ setTimeout(showPopup, next + 4000);
+ }
+ // First popup after 5s
+ setTimeout(showPopup, 5000);
+
+})();
+</script>
+</body>
+</html>
